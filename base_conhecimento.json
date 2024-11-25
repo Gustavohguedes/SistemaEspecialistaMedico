@@ -1,0 +1,16 @@
+{
+    "Gripe": ["febre alta", "dor de cabeça", "dores musculares"],
+    "Resfriado": ["coriza", "espirros", "dor de garganta"],
+    "Alergia": ["coceira nos olhos", "espirros", "nariz entupido"],
+    "Botulismo": ["prisão de ventre", "tontura", "visão distorcida", "dificuldade de abrir os olhos"],
+    "Brucelose": ["calafrio", "dor de cabeça", "cansaço", "febre"],
+    "Cistite": ["vontade frequente de urinar", "ardor ao urinar", "febre"],
+    "Cólera": ["diarreia", "desidratação", "vômitos", "fraqueza"],
+    "Coqueluche": ["febre", "espirro", "mal-estar", "tosse seca prolongada"],
+    "Difteria": ["dor de garganta", "aparecimento de placas nas amígdalas", "febre", "mal-estar"],
+    "Escarlatina": ["manchas vermelhas na pele", "febre alta", "dor de garganta", "dores musculares"],
+    "Febre Tifoide": ["febre alta prolongada", "dor de cabeça", "náuseas", "falta de apetite"],
+    "Gonorreia": ["dor e ardor ao urinar", "sangramentos", "corrimento amarelado"],
+    "Hanseníase": ["manchas na pele", "inchaço nas mãos e pés", "perda de força muscular"],
+    "Impetigo": ["bolhas", "dor", "úlceras"]
+}
