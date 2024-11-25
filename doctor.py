@@ -79,7 +79,7 @@ botao = ttk.Button(janela, text="Diagnosticar", command=avaliar)
 botao.pack(pady=20)
 
 # Rodapé
-ttk.Label(janela, text="Desenvolvido por Você", font=("Arial", 10), foreground="#999", background="#f0f0f0").pack(pady=5)
+ttk.Label(janela, text="Desenvolvido por Gustavo Henrique, Adriano Lincon, Daivison Ramos", font=("Arial", 10), foreground="#999", background="#f0f0f0").pack(pady=5)
 
 # Inicializar a janela
 janela.mainloop()
