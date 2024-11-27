@@ -4,7 +4,7 @@ import json
 
 # Carregar base de conhecimento de um arquivo JSON
 def carregar_base_conhecimento(arquivo):
-    with open(arquivo, "r") as f:
+    with open(arquivo, "r", encoding="utf-8") as f:
         return json.load(f)
 
 # Função para calcular ranking de diagnósticos
@@ -79,7 +79,7 @@ botao = ttk.Button(janela, text="Diagnosticar", command=avaliar)
 botao.pack(pady=20)
 
 # Rodapé
-ttk.Label(janela, text="Desenvolvido por Gustavo Henrique, Adriano Lincon, Daivison Ramos", font=("Arial", 10), foreground="#999", background="#f0f0f0").pack(pady=5)
+ttk.Label(janela, text="Desenvolvido por Gustavo Henrique, Adriano Lincoln, Daivison Ramos", font=("Arial", 10), foreground="#999", background="#f0f0f0").pack(pady=5)
 
 # Inicializar a janela
 janela.mainloop()
