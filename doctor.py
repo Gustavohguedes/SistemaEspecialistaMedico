@@ -4,7 +4,7 @@ import json
 
 # Carregar base de conhecimento de um arquivo JSON
 def carregar_base_conhecimento(arquivo):
-    with open(arquivo, "r", encoding="utf-8") as f:
+    with open(arquivo, "r", encoding="utf-8") as f: # encoding="utf-8" formata e corrige as letras de palavras
         return json.load(f)
 
 # Função para calcular ranking de diagnósticos
